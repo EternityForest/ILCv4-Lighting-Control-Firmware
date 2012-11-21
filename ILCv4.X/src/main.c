@@ -1,10 +1,6 @@
 /**
 //@file main18f25k22.c
-//@details Inteligent Lighting Control (C) 2011 Daniel Dunn All Rights Reserved.                               |
-// Redistribution (for any purpose and by any means ) of code,object files,documentation,data tables,  |
-// or any other content derived,copied,or otherwise produced                                           |
-// wholly or partially from this document (or copying this entire document)                            |
-// in whole or in part is forbidden without prior written consent of the author.                       |
+//@details Inteligent Lighting Control (C) 2011 Daniel Dunn GPLv3                    |
 //*/
  
 #include "device_18F25K22.h"//Put this at the top
