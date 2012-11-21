@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="f1" displayName="Core Framework" projectFiles="true">
+      <itemPath>src/BeatDetection.c</itemPath>
+      <itemPath>src/data.h</itemPath>
+      <itemPath>src/device_18F25K22.h</itemPath>
+      <itemPath>src/DSP.c</itemPath>
+      <itemPath>src/DSP.h</itemPath>
+      <itemPath>src/frontend_WS2801.c</itemPath>
+      <itemPath>src/frame.c</itemPath>
+      <itemPath>src/global.h</itemPath>
+      <itemPath>src/modes.c</itemPath>
+      <itemPath>src/main.c</itemPath>
+      <itemPath>src/RC4.c</itemPath>
+      <itemPath>src/User_Interface_button.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LibraryFiles"
+                   displayName="Library Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="Modes" projectFiles="true">
+      <itemPath>src/fireflies.c</itemPath>
+      <itemPath>src/FukaiMori.c</itemPath>
+      <itemPath>src/LightEgg.c</itemPath>
+      <itemPath>src/SparksFly.c</itemPath>
+      <itemPath>src/Sunlight.c</itemPath>
+      <itemPath>src/transforms.c</itemPath>
+      <itemPath>src/twinklecandle.c</itemPath>
+      <itemPath>src/aqua.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ObjectFiles"
+                   displayName="Object Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>src/Documentation.h</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC18F25K22</targetDevice>
+        <targetHeader></targetHeader>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>hi-tech-picc18</languageToolchain>
+        <languageToolchainVersion>9.80</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationAlternativeFileToLoadEnabled>false</makeCustomizationAlternativeFileToLoadEnabled>
+        <makeCustomizationAlternativeFileToLoad></makeCustomizationAlternativeFileToLoad>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+      </makeCustomizationType>
+      <HI-TECH-COMP>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+      </HI-TECH-LINK>
+      <PICkit3PlatformTool>
+      </PICkit3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>
